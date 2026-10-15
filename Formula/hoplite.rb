@@ -1,16 +1,16 @@
 class Hoplite < Formula
   desc "Run Hoplite's coding agent from your terminal"
   homepage "https://hoplite.sh"
-  version "3.4.0"
+  version "3.5.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://hoplite.sh/downloads/releases/3.4.0/hoplite_3.4.0_darwin_arm64.tar.gz"
-      sha256 "e95cec666b35cbcb956ab2d4d42dfa133839acbd3b35fe642e972fd28fe81551"
+      url "https://hoplite.sh/downloads/releases/3.5.1/hoplite_3.5.1_darwin_arm64.tar.gz"
+      sha256 "0d34a6a126499c4bb9acdc8551963a7be2cb6af7d463707ededc4e75c0cc2f80"
     else
-      url "https://hoplite.sh/downloads/releases/3.4.0/hoplite_3.4.0_darwin_amd64.tar.gz"
-      sha256 "44969daaaf8e63b327b5fe1b4af750f09047afb9a00ac62135210b3c6cc93026"
+      url "https://hoplite.sh/downloads/releases/3.5.1/hoplite_3.5.1_darwin_amd64.tar.gz"
+      sha256 "51e8adf4a7bec78a425a02ef2237305509e1ba61d86552b5af1300b188da5a1f"
     end
   end
 
